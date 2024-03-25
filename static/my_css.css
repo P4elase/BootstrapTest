@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+.nav-link{
+    color: blue;
+}
+.navbar-brand>img{
+    height: 1.5em;
+}
+body{
+    font-family: Michroma, serif;
+}
+.col-lg-3{
+    font-size: medium;
+}
+h3{
+    text-align: left;
+}
+body{
+    background: aliceblue no-repeat;
+    font-size: large;
+    background-size: 100%
+}
+
+.slide-text{
+    margin: auto;
+}
+@media (max-width:991px) {
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+.headers{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.Box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+section{
+    min-height: 80vh;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    flex-wrap: wrap;
+}
+.buttons>p{
+    padding-top: 2em;
+}
+.buttons>button {
+    margin: 0.5em;
+    width: 18em;
+    padding: 0.5em;
+}
+.col-lg-3{
+    border-radius: 15px;
+    border-style: solid;
+}
+.col-lg-2{
+    border-radius: 15px;
+    border-style: solid;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+    text-align: center;
+}
+#container_footer>a>img{
+    width: 3em;
+    margin-top: 1em;
+    margin-inline: 1em;
+    margin-bottom: 5px;
+}
+.carousel-indicators{
+    bottom: auto;
+}
+.col-lg-7{
+    border-radius: 10px;
+    border: 5px cornflowerblue solid;
+    box-shadow: 0 0 10px #444;
+}
+#footer_text{
+    margin-top: 1em;
+}
+
+#phone_ico{
+    min-height: 1.3em;
+    animation: PhoneAnim 10s ease 0s 1 normal forwards;
+}
+#phone_text{
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: cornflowerblue;
+    color: black;
+}
+
+@keyframes PhoneAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
